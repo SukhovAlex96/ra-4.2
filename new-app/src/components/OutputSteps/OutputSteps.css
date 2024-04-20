@@ -1,0 +1,16 @@
+.outputContainer {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 15px;
+    align-content: start;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.element {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    align-content: center;
+}
